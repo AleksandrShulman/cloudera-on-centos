@@ -211,6 +211,7 @@
     },
     {
       "type": "Microsoft.Network/virtualNetworks",
+      "name": "ClouderaVnetRg",
       "id": "[parameters('networkSpec').internalVnetId]",
     }
   ]
