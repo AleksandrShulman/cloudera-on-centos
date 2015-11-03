@@ -210,29 +210,7 @@
       }
     },
     {
-      "apiVersion": "2015-05-01-preview",
-      "type": "Microsoft.Network/virtualNetworks",
-      "name": "[parameters('networkSpec').virtualNetworkName]",
       "id": "[parameters('networkSpec').internalVnetId]",
-      "location": "[parameters('region')]",
-      "properties": {
-        "addressSpace": {
-          "addressPrefixes": [
-            "[parameters('networkSpec').addressPrefix]"
-          ]
-        },
-        "subnets": [
-          {
-            "name": "[parameters('networkSpec').virtualNetworkSubnetName]",
-            "properties": {
-              "addressPrefix": "[parameters('networkSpec').subnetPrefix]",
-              "networkSecurityGroup": {
-                "id": "localsg"
-              }
-            }
-          }
-        ]
-      }
     }
   ]
 }
