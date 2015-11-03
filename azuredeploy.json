@@ -194,7 +194,7 @@
     }
   },
   "variables": {
-    "scriptsUri": "https://raw.githubusercontent.com/netwmr01/cloudera-on-centos/master",
+    "scriptsUri": "https://raw.githubusercontent.com/AleksandrShulman/cloudera-on-centos/master/",
     "storageAccount": {
       "prefix": "[parameters('storageAccountPrefix')]",
       "type": "[parameters('storageAccountType')]"
