@@ -213,9 +213,7 @@
       "type": "Microsoft.Network/virtualNetworks",
       "name": "ClouderaVnetRg",
       "apiVersion": "2015-05-01-preview",
-      "properties" : {
-        "id": "[parameters('networkSpec').internalVnetId]",
-      }
+      "id": "[parameters('networkSpec').internalVnetId]",
     }
   ]
 }
