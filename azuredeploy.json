@@ -222,8 +222,8 @@
       "addressPrefix": "[parameters('addressPrefix')]",
       "subnetPrefix": "[parameters('subnetPrefix')]",
       "privateIPPrefix": "[parameters('nodeAddressPrefix')]",
-      "masterNodeAddressStart": 10,
-      "dataNodeAddressStart": 20,
+      "masterNodeAddressStart": 30,
+      "dataNodeAddressStart": 40,
       "virtualNetworkName": "[parameters('virtualNetworkName')]",
       "virtualNetworkSubnetName": "[parameters('subnetName')]"
     }
